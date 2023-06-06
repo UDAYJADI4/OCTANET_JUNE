@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300&display=swap');
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box   ;
+    font-family: 'Geologica', sans-serif;
+ }
+section{
+    min-height: 100vh;
+    background-image: url("https://www.topgear.com/sites/default/files/cars-car/image/2019/03/rr_evq_20my_yulong_dynamic_006.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 85%;
+    margin: auto  ;
+}
+nav{
+    height: 80px;
+
+}
+nav h1{
+    float:left ;
+    line-height: 80px ;
+    font-size: 35px;
+    font-size: inline;
+    color: brown;
+}
+nav ul{
+    float:  right;
+    line-height: 80px;
+
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+
+}
+ nav ul li a:hover {
+    background-color: red;
+    transition: 0.5s ease;
+
+ }
+
+
+.main-text .btn{
+    margin: 2.5rem;
+    
+    font-size: 18px;
+    padding: 1rem;
+    border-radius: 0 50% 50% 0;
+    background-color: coral;
+    color: orangered;
+    cursor: pointer;
+}
+.main-text .btn:hover{
+    background-color:black;
+    transition: 0.5s ease;
+}
+.main-text{
+    width: 50%;
+    margin:auto;
+    text-align: bottom;
+    transform:translateY(25vh) ;
+
+    
+}
+.main-text h1{
+    font-size: 36px;
+    color: black;
+     letter-spacing:1.5px;
+     font-weight: 800;
+     margin-bottom :25px; 
+}
+.main-text p{
+    font-size: 18px;
+    color: red;
+    line-height: 1.5em;
+    margin-bottom: 50px;
+
+
+}
